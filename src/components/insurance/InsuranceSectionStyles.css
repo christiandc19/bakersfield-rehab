@@ -1,6 +1,6 @@
 .InsuranceSection {
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
@@ -49,7 +49,24 @@
     justify-content: center;
 }
 
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
 
+.form-cta {
+    text-align: center;
+    margin-top: -8rem;
+}
+
+.form-cta p {
+    width: 50%;
+    margin: auto;
+}
+
+/*  */
 
 @media screen and (max-width: 940px) {
     .InsuranceSection .content {

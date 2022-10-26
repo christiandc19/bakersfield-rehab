@@ -20,7 +20,7 @@ const Services = () => {
                     <Fade top>
                         <div className="content">
                             <h2>OUR SERVICES</h2>
-                            <p>At Natural Rest House, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                            <p>At Bakersfield Rehabilitaion Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
                         </div>
                     </Fade>
                 </div>

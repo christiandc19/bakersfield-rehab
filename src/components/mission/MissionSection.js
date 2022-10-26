@@ -20,7 +20,7 @@ const MissionSection = () => {
             <div className='divider'></div>
                 <div className="content">
                     <h2><span>What We Can</span> Provide</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
+                    <p>Our goal is to help families and individuals, save lives by raising awareness and helping people find the resources and services that they need to get better.</p>
 
 
                             <div className='flex-right'>

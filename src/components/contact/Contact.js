@@ -15,13 +15,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-// Popup message after send button is clicked
-  //   const feedbackEl = document.querySelector(".feedback");
-  //   feedbackEl.setAttribute("class", "feedback");
-  // setTimeout(function() {
-  //   feedbackEl.setAttribute("class", "feedback hide");
-  // }, 4000);
-
 
                   //    Service Id        Template Id                 Public Key (Account Tab) 
    emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
@@ -54,7 +47,7 @@ const Contact = () => {
                 <div className="location">
                   <h1 className="location-header">Get In Touch</h1><br/>
                   <p><AiOutlinePhone /> +1 123 456 7890  </p><br/>
-                  <p><AiOutlineMail /> info@joserforever.com  </p><br/>
+                  <p><AiOutlineMail /> info@BakersfieldRehab.com  </p><br/>
                   <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br/>
                   <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                 </div>
