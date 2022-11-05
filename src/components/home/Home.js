@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import './HeroStyles.css'
+import './Home.css'
+import ServicesCards from '../services/ServicesCards';
 
-const Hero = () => {
+const Home = () => {
     return (
+        <>
         <div className='hero'>
             <div className="container">
                 <div className="content">
@@ -23,7 +25,11 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+
+        <ServicesCards />
+
+        </>
     )
 }
 
-export default Hero
+export default Home

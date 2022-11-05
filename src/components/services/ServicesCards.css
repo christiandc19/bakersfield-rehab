@@ -1,0 +1,42 @@
+.cards-header .content {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -3rem;
+}
+.cards-header {
+    margin-top: 1rem;
+}
+
+.serviceCards {
+    margin: auto;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+   .cards-header .content {
+    margin-left: 1rem;
+   } 
+
+   .cards-header h2 {
+        font-size: 22px;
+   }
+
+   .cards-header p {
+    font-size: 15px;
+}
+
+    .cards-header .content {
+    margin-top: 2rem;
+}
+
+
+}
+
+
+
+
