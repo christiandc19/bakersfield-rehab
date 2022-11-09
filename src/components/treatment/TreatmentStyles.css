@@ -22,6 +22,8 @@
     top: 30%;
     width: 100%;
     left: 0;
+    padding: 25px;
+
 }
 
 .treatment h1 {
@@ -35,35 +37,66 @@
     text-align: justify;
 }
 
-.service-1 {
+.keyAreas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1rem 5rem;
-}
-
-
-.service-1 h1 {
-    color: var(--primary-color);
-}
-
-.service-1-description {
-    width: 50%;
-    text-align: justify; 
     margin-top: 2rem;
 }
 
-.service-1-image {
-    width: 40%; 
-    margin-top: 2rem;
+.keyAreas-description {
+    width: 700px;
+    margin: 1rem;
 }
 
-.service-1-image img {
-    border-radius: 1rem;
+.keyAreas-description p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.keyAreas-image {
+    width: 700px;
+    margin: 1rem;
+}
+
+.keyAreas-image video {
     width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
-@media screen and (max-width:992px) {
+
+
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 2rem;
+ 
+
+}
+
+.activities-description {
+    width: 700px;
+}
+
+.activities-description p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.activities-image {
+    width: 700px;
+}
+
+.activities-image video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:940px) {
     .treatment .content {
     width: 100%;
     }
@@ -72,26 +105,22 @@
         font-size: 14px;
     }
 
-    .service-1 {
-        margin: 1rem;
+    .treatment h1 {
+        font-size: 1.5rem;
     }
 
-    .service-1-image {
-        display: none;
-    }
-
-    .service-1-description {
-        width: 100%;    
-    }
-    
-    .service-1-description p{
-        width: 100%;   
-        font-size: 14px; 
-    }
-    
-    .service-1-description h1{
-        font-size: 25px; 
-    }
-
+    .keyAreas h1 {
+    font-size: 1.5rem;
+    ;
 }
 
+    .activities h1 {
+    font-size: 1.5rem;
+    }
+    
+    .activities-image video {
+       display: none;
+    }
+
+
+}

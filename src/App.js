@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import InsuranceSection from './components/insurance/InsuranceSection';
+// import InsuranceSection from './components/insurance/InsuranceSection';
 import ContactForm from './components/contact/ContactForm';
 import Home from './components/home/Home';
 
@@ -10,8 +10,8 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <InsuranceSection />
-      <ContactForm />
+      {/* <InsuranceSection /> */}
+      {/* <ContactForm /> */}
       <Footer />
     </>
   );
