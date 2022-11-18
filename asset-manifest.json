@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/bakersfield-rehab/static/css/main.8c739c8f.css",
-    "main.js": "/bakersfield-rehab/static/js/main.e580d622.js",
+    "main.css": "/bakersfield-rehab/static/css/main.7b6632c9.css",
+    "main.js": "/bakersfield-rehab/static/js/main.f4149b6a.js",
+    "static/media/hero-bg2.mp4": "/bakersfield-rehab/static/media/hero-bg2.c932fcd94c50f6930d54.mp4",
     "static/media/key-areas-vbg.mp4": "/bakersfield-rehab/static/media/key-areas-vbg.0d24b9e2aad369639f1d.mp4",
-    "static/media/hero-bg2.mp4": "/bakersfield-rehab/static/media/hero-bg2.39f5b9b2e4b880acf6dd.mp4",
     "static/media/activities-vbg.mp4": "/bakersfield-rehab/static/media/activities-vbg.f224894717a7dea8e1bc.mp4",
     "static/media/footer-bg.jpg": "/bakersfield-rehab/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
     "static/media/contact-bg.jpg": "/bakersfield-rehab/static/media/contact-bg.4259452787cd040e11e2.jpg",
     "static/media/therapy.jpg": "/bakersfield-rehab/static/media/therapy.d1176c8e87de94fcc86d.jpg",
-    "static/media/activity.jpg": "/bakersfield-rehab/static/media/activity.ffec557e0e736e7dd105.jpg",
     "static/media/mission-bg.jpg": "/bakersfield-rehab/static/media/mission-bg.c648eb6086d2f506655b.jpg",
     "static/media/staff.jpg": "/bakersfield-rehab/static/media/staff.9b2630a4cc05d70cac0f.jpg",
     "static/media/treatment-bg2.jpg": "/bakersfield-rehab/static/media/treatment-bg2.2bdbeb8f809f707f9987.jpg",
-    "static/media/treatment-image-1.jpg": "/bakersfield-rehab/static/media/treatment-image-1.933e13ebd6d5a2c008f3.jpg",
     "static/media/about-us-bg.jpg": "/bakersfield-rehab/static/media/about-us-bg.b462c72e374e14104950.jpg",
     "static/media/substance-use.png": "/bakersfield-rehab/static/media/substance-use.c71896775a57a166784e.png",
     "static/media/employment-assistance.png": "/bakersfield-rehab/static/media/employment-assistance.b877570723c987f63091.png",
@@ -29,11 +27,11 @@
     "static/media/bluecross.png": "/bakersfield-rehab/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/bakersfield-rehab/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/bakersfield-rehab/index.html",
-    "main.8c739c8f.css.map": "/bakersfield-rehab/static/css/main.8c739c8f.css.map",
-    "main.e580d622.js.map": "/bakersfield-rehab/static/js/main.e580d622.js.map"
+    "main.7b6632c9.css.map": "/bakersfield-rehab/static/css/main.7b6632c9.css.map",
+    "main.f4149b6a.js.map": "/bakersfield-rehab/static/js/main.f4149b6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c739c8f.css",
-    "static/js/main.e580d622.js"
+    "static/css/main.7b6632c9.css",
+    "static/js/main.f4149b6a.js"
   ]
 }
