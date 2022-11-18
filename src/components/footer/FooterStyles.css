@@ -60,6 +60,7 @@
 .footer h3 {
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
+    color: var(--primary-dark);
 }
 
 

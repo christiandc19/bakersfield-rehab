@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './TreatmentStyles.css'
-import Service1 from '../../assets/treatment-image-1.jpg'
-import Activity from '../../assets/activity.jpg'
+import './Treatment.css'
 
 import KeyAreas from '../../assets/key-areas-vbg.mp4'
 import Activities from '../../assets/activities-vbg.mp4'
@@ -77,7 +75,7 @@ const Treatment = () => {
                 </div>
 
                     <div className='keyAreas-image'>
-                        <video src={KeyAreas} autoPlay muted loop className='video-bg' />
+                        <video src={KeyAreas} autoPlay muted loop playsInline className='video-bg' />
                     </div>
 
             </div>
@@ -90,7 +88,7 @@ const Treatment = () => {
 
             <div className='activities'>
             <div className='activities-image'>
-                <video src={Activities} autoPlay muted loop className='video-bg' />
+                <video src={Activities} autoPlay muted loop playsInline className='video-bg' />
                 </div>
 
                 <div className='activities-description'>

@@ -3,12 +3,16 @@
 }
 
 
+.servicesCardsContainer h1 {
+    font-size: 1.5rem;
+}
+
 .cards-header {
     margin-top: 1rem;
 }
 
 .cards-header p {
-    padding: 25px;
+    padding: 25px 10px 40px 10px;
 }
 
 .cards-header h1 {
