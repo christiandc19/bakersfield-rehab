@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
         <div className='hero'>
-        <video src={BgVideo} autoPlay muted loop className='video-bg' />            
+        <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />            
             <div className="container">
                 <div className="content">
                     
