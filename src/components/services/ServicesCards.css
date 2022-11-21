@@ -3,10 +3,6 @@
 }
 
 
-.servicesCardsContainer h1 {
-    font-size: 1.5rem;
-}
-
 .cards-header {
     margin-top: 1rem;
 }
@@ -20,7 +16,7 @@
 }
 
 .cards-header .content {
-    height: 20vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

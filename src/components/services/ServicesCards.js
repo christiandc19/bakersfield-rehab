@@ -17,7 +17,7 @@ const ServicesCards = () => {
             <div className='cards-header'>
                 <div className="services-container">
                     <Fade top>
-                        <div className="content">
+                        <div className="container content">
                             <h1>OUR SERVICES</h1>
                             <p>At Bakersfield Rehabilitaion Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
                         </div>

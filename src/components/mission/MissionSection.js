@@ -1,5 +1,5 @@
 import React from 'react'
-import './MissionSectionStyles.css'
+import './MissionSection.css'
 import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
@@ -8,7 +8,7 @@ import { Link as LinkRoll } from 'react-scroll'
 import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
 import Clinic from '../../assets/clinic.jpg'
-import Work from '../../assets/employment-assistance2.png'
+import Work from '../../assets/employment-assistance.png'
 
 
 
@@ -17,10 +17,8 @@ const MissionSection = () => {
         <>
         <div className='mission-section'>
             <div className="container">
-            <div className='divider'></div>
                 <div className="content">
-                    <h2><span>What We Can</span> Provide</h2>
-                    <p>Our goal is to help families and individuals, save lives by raising awareness and helping people find the resources and services that they need to get better.</p>
+                    <h1>WHAT WE CAN PROVIDE</h1>
 
 
                             <div className='flex-right'>
@@ -58,18 +56,18 @@ const MissionSection = () => {
                     </Fade>                          
 
                     </div>
+
                     <div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to="/contact">
                             <button>Contact Us</button>
                         </Link>
                     </LinkRoll>
-                </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-
-
 
 </>
     )
