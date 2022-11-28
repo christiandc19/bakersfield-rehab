@@ -23,7 +23,8 @@
 }
 
 .about h1 {
-    text-align: center;
+    color: #f8f8f8;
+    font-size: 5rem;
 }
 
 .about-section p {
