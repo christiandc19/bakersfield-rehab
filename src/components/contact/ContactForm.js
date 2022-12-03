@@ -33,9 +33,9 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
-                        <p><AiOutlineMail /> info@palmspringsrehab.com  </p><br />
-                        <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br />
+                        <p><AiOutlinePhone /> +1 323 403-5422  </p><br />
+                        <p><AiOutlineMail /> info@domainName.com </p><br />
+                        <p><BsFillPinMapFill /> 1233 SomeStreet SomeCity State 0000  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
