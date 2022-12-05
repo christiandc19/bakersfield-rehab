@@ -1,10 +1,5 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-import { BsFillPinMapFill } from 'react-icons/bs';
-import { AiOutlinePhone } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
-
-
 import './Contact.css';
 import ContactForm from "./ContactForm";
 
