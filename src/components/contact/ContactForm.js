@@ -33,7 +33,7 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /> +1 323 403-5422  </p><br />
+                        <p><AiOutlinePhone /> <a href="tel:3234035422">+1 323 403-5422</a></p><br />
                         <p><AiOutlineMail /> info@domainName.com </p><br />
                         <p><BsFillPinMapFill /> 2828 H street #H, Bakersfield, CA 93301  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
