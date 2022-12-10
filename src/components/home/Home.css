@@ -56,7 +56,7 @@
 
 @media screen and (max-width:940px) {
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 2.5rem;
         margin-bottom: 1rem;
     }
@@ -67,9 +67,6 @@
         letter-spacing: 1px;
     }
 
-    .hero .container {
-        top: 40%;
-    }
     
 }
 
