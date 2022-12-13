@@ -6,9 +6,12 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
-import MolinaHealthCare from '../../assets/molina-healthcare.png'
-import MHN from '../../assets/mhn.png'
+import Optima from '../../assets/optima.png'
+import Umr from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
+import Horizon from '../../assets/horizon.png'
+import Optum from '../../assets/optum.png'
+
 import Form from '../../assets/form.pdf'
 
 
@@ -19,13 +22,15 @@ import { Link as LinkRoll } from 'react-scroll'
 
 const InsuranceSection = () => {
     return (
+        <>
         <div className='InsuranceSection'>
-            <div className="container">
                 <h1>WE WORK WITH MAJOR INSURANCE</h1>
                 <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
+
+            <div className="container">
                 <div className="content">
 
-                    <Fade top>
+                    <Fade bottom>
                         <div className='insurance-thumbnail'>
                             <img src={Aetna} alt="Aetna Logo" loading="lazy" />
                         </div>
@@ -38,7 +43,7 @@ const InsuranceSection = () => {
                         </div>
                     </Fade>
 
-                    <Fade top>
+                    <Fade bottom>
                         <div className='insurance-thumbnail'>
                             <img src={Bluecross} alt="Bluecross Logo" loading="lazy" />
                         </div>
@@ -52,39 +57,49 @@ const InsuranceSection = () => {
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={MolinaHealthCare} alt="Cigna Logo" loading="lazy" />
+                            <img src={Optima} alt="Optima Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={MHN} alt="Cigna Logo" loading="lazy" />
+                            <img src={Umr} alt="UMR Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={United} alt="Cigna Logo" loading="lazy" />
+                            <img src={United} alt="United Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Horizon} alt="Horizon Logo" loading="lazy" />
+                        </div>
+                    </Fade>                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Optum} alt="Optum Logo" loading="lazy" />
                         </div>
                     </Fade>
                 </div>
-            </div>
-            <div className='form-cta'>
-            <p>Our professional team is here to assist you with any insurance related matters and to facilitate this process in any way possible. To find out if we accept your insurance, please download the form and submit your policy information thru email.</p>
-            </div>
-            <div className='cta'>
                 
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                    <Link to="/treatment">
-
-                        <button>Learn More</button>
-                    </Link>
-                </LinkRoll>
-                <button><a href={Form} download className="btn btn-primary">Download Form</a></button>
             </div>
-
-
+            <div className='form-cta container'>
+<p>Our professional team is here to assist you with any insurance related matters and to facilitate this process in any way possible. To find out if we accept your insurance, please download the form and submit your policy information thru email.</p>
+</div>
         </div>
+
+        <div className='cta'>    
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+    <Link to="/contact">
+
+        <button>Learn More</button>
+    </Link>
+</LinkRoll>
+<button><a href={Form} download className="btn btn-primary">Download Form</a></button>
+</div>
+
+</>
     )
 }
 

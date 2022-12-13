@@ -1,26 +1,29 @@
 .InsuranceSection {
-    width: 100%;
-    height: 70vh;
     position: relative;
+    width: 100%;
+    height: auto;
     background: rgba(255, 255, 255, 0);
 }
 
 .InsuranceSection .container {
-    margin-top: 2rem;
+    height: auto;
+    position: relative;
 }
 
 .InsuranceSection .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: absolute;
     left: 0;
-    top: 20%;
+    height: auto;
+    /* top: 20%; */
     width: 100%;
+    /* position: relative; */
 }
 
-.InsuranceSection .container p {
+.InsuranceSection p {
     text-align: center;
+    padding: 1rem;
 }
 
 .InsuranceSection .content p {
@@ -43,11 +46,7 @@
     border-radius: 1rem;
 }
 
-.InsuranceSection .flex-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 
 .cta {
     display: flex;
@@ -58,11 +57,9 @@
 
 .form-cta {
     text-align: center;
-    margin-top: -8rem;
 }
 
 .form-cta p {
-    width: 50%;
     margin: auto;
 }
 
@@ -74,12 +71,9 @@
         width: 100%;
         padding: 1rem;
         /* background: rgba(255, 255, 255, .7); */
-        margin-top: -3rem;
     }
 
-    .InsuranceSection {
-        height: 70vh;
-    }
+
 
     .testimInsuranceSectiononials h2 {
         font-size: 25px;
