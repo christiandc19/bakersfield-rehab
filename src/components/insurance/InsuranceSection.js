@@ -11,6 +11,8 @@ import Umr from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
 import Horizon from '../../assets/horizon.png'
 import Optum from '../../assets/optum.png'
+import Anthem from '../../assets/anthem.png'
+
 
 import Form from '../../assets/form.pdf'
 
@@ -76,9 +78,15 @@ const InsuranceSection = () => {
                         <div className='insurance-thumbnail'>
                             <img src={Horizon} alt="Horizon Logo" loading="lazy" />
                         </div>
-                    </Fade>                    <Fade bottom>
+                    </Fade>                    
+                    <Fade bottom>
                         <div className='insurance-thumbnail'>
                             <img src={Optum} alt="Optum Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Anthem} alt="Optum Logo" loading="lazy" />
                         </div>
                     </Fade>
                 </div>
