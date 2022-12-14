@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bakersfield-rehab/static/css/main.acf5f090.css",
-    "main.js": "/bakersfield-rehab/static/js/main.c0ebf4e1.js",
+    "main.css": "/bakersfield-rehab/static/css/main.8eb0549e.css",
+    "main.js": "/bakersfield-rehab/static/js/main.d83eb8cc.js",
     "static/media/hero-bg2.mp4": "/bakersfield-rehab/static/media/hero-bg2.b3f53d77fda7492ffd45.mp4",
     "static/media/key-areas-vbg.mp4": "/bakersfield-rehab/static/media/key-areas-vbg.89a5c4c9a92253719d5a.mp4",
     "static/media/activities-vbg.mp4": "/bakersfield-rehab/static/media/activities-vbg.368bfc258d96f5b3ad12.mp4",
@@ -27,13 +27,14 @@
     "static/media/umr.png": "/bakersfield-rehab/static/media/umr.d1881860194badb8f407.png",
     "static/media/clinic.jpg": "/bakersfield-rehab/static/media/clinic.b1610d5a34d398c79080.jpg",
     "static/media/optima.png": "/bakersfield-rehab/static/media/optima.7b4429e5e6c6a632b8cd.png",
+    "static/media/anthem.png": "/bakersfield-rehab/static/media/anthem.f94082dd511baedda048.png",
     "static/media/optum.png": "/bakersfield-rehab/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/bakersfield-rehab/index.html",
-    "main.acf5f090.css.map": "/bakersfield-rehab/static/css/main.acf5f090.css.map",
-    "main.c0ebf4e1.js.map": "/bakersfield-rehab/static/js/main.c0ebf4e1.js.map"
+    "main.8eb0549e.css.map": "/bakersfield-rehab/static/css/main.8eb0549e.css.map",
+    "main.d83eb8cc.js.map": "/bakersfield-rehab/static/js/main.d83eb8cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.acf5f090.css",
-    "static/js/main.c0ebf4e1.js"
+    "static/css/main.8eb0549e.css",
+    "static/js/main.d83eb8cc.js"
   ]
 }
