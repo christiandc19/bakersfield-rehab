@@ -8,8 +8,8 @@
 .mission:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mission-bg.jpg') no-repeat center center/cover;
-    height: 70vh;
+    background: url('../../assets/default-hero-bg.jpg') no-repeat center center/cover;
+    height: 75vh;
     width: 100%;
     z-index: -1;
 }

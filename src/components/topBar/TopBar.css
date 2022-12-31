@@ -1,0 +1,45 @@
+.topbar {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+}
+
+.topbar-left{
+    display: flex;
+    color: white;
+}
+
+.topbar-left p {
+    font-size: 12px;
+}
+
+.topbar-item {
+    margin: auto 1rem;
+}
+
+.topbar-right {
+    display: flex;
+    color: white;
+}
+
+.topbar-right p {
+    font-size: 12px;
+}
+
+.topbar .center {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.topbar-left .center p {
+    margin: auto 1rem;
+}
+
+@media screen and (max-width: 940px) {
+
+.topbar {
+    display: none;
+}
+
+}
