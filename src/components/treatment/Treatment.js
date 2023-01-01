@@ -118,10 +118,10 @@ const Treatment = () => {
                         <p><MdPool /> Community pool</p>
                         <p><MdVolunteerActivism /> Sober events/fundraisers </p>
                         <br />
-                        <p>For more information about our addiction treatment programs, please contact Joser Forever Treatment Facilty today.</p>
+                        <p>For more information about our addiction treatment programs, please contact Bakersfield Rehab Treatment Facilty today.</p>
 
                         <div>
-                                <button><a href='818-746-6867'>818-746-6867</a></button>
+                                <button><a href='323-403-5422'>323-403-5422</a></button>
                         </div>
 
                 </div>
